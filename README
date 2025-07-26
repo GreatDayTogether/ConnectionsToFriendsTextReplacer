@@ -1,0 +1,9 @@
+README.txt
+
+How to unpack the extension.
+
+1. Make sure that developer mode in your browser is turned on
+2. Click Load unpacked
+3. Once it's loaded, refresh roblox, and it should say "friends" again, instead of "Connections"
+
+Please note that it only works on a browser, it doesn't work on roblox player or roblox app
