@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Roblox Connections → Friends",
+  "version": "1.0",
+  "description": "Replaces all 'Connections' text on Roblox with 'Friends'.",
+  "icons": {
+    "16": "Icon.png",
+    "48": "Icon.png",
+    "128": "Icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.roblox.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
